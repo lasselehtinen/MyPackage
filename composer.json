@@ -1,0 +1,27 @@
+{
+    "name": "lasselehtinen/mypackage",
+    "description": "My awesome Laravel package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lasse Lehtinen",
+            "email": "lasse.lehtinen@iki.fi"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "lasselehtinen\\MyPackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "lasselehtinen\\MyPackage\\Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "^6.0"
+    }
+}
